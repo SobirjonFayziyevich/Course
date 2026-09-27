@@ -5,3 +5,18 @@ __pycache__/
 .ipynb_checkpoints/
 .venv311/
 .venv311/
+cat >> .gitignore <<'EOF'
+
+# PyTorch datasets
+7-dars/datasets/
+8-dars/data/
+8-dars/datasetlar/
+8-dars/datasets/
+
+# macOS
+.DS_Store
+
+# Python
+.venv/
+__pycache__/
+EOF
